@@ -1,0 +1,248 @@
+[1603185459.794][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 44528
+[1603185459.794][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1603185460.880][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Владичег\\IdeaProjects\\AutomationpracticeCom\\build\\downloads\\1603185455277_9268_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Владичег\\IdeaProjects\\AutomationpracticeCom\\build\\downloads\\1603185455277_9268_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1603185460.894][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Владичег\\IdeaProjects\\AutomationpracticeCom\\build\\downloads\\1603185455277_9268_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1603185460.952][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1603185460.954][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\684C~1\AppData\Local\Temp\scoped_dir9420_1342090131" data:,
+[1603185466.540][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603185468.549][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603185470.606][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.75",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\684C~1\\AppData\\Local\\Temp\\scoped_dir9420_1342090131"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:65512"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "ed059c0cb5d81d101a05d7c9c5bdd966"
+}
+[1603185470.727][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1603185470.727][INFO]: Waiting for pending navigations...
+[1603185470.729][INFO]: Done waiting for pending navigations. Status: ok
+[1603185470.837][INFO]: Waiting for pending navigations...
+[1603185470.838][INFO]: Done waiting for pending navigations. Status: ok
+[1603185470.838][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1603185470.846][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] COMMAND Navigate {
+   "url": "http://automationpractice.com"
+}
+[1603185470.846][INFO]: Waiting for pending navigations...
+[1603185470.847][INFO]: Done waiting for pending navigations. Status: ok
+[1603185473.493][INFO]: Waiting for pending navigations...
+[1603185495.713][INFO]: Done waiting for pending navigations. Status: ok
+[1603185495.713][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] RESPONSE Navigate
+[1603185496.027][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] COMMAND FindElement {
+   "using": "link text",
+   "value": "Faded Short Sleeve T-shirts"
+}
+[1603185497.604][INFO]: Waiting for pending navigations...
+[1603185497.745][INFO]: Done waiting for pending navigations. Status: ok
+[1603185498.152][INFO]: Waiting for pending navigations...
+[1603185498.153][INFO]: Done waiting for pending navigations. Status: ok
+[1603185498.153][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "efda7938-2391-4162-83f9-ea0dce79bd52"
+}
+[1603185498.234][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] COMMAND GetElementRect {
+   "id": "efda7938-2391-4162-83f9-ea0dce79bd52"
+}
+[1603185498.234][INFO]: Waiting for pending navigations...
+[1603185498.236][INFO]: Done waiting for pending navigations. Status: ok
+[1603185498.279][INFO]: Waiting for pending navigations...
+[1603185498.280][INFO]: Done waiting for pending navigations. Status: ok
+[1603185498.311][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] RESPONSE GetElementRect {
+   "height": 23.0,
+   "width": 240.0,
+   "x": 96.5,
+   "y": 1157.0
+}
+[1603185498.319][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollTo(96, 1157)"
+}
+[1603185498.320][INFO]: Waiting for pending navigations...
+[1603185498.321][INFO]: Done waiting for pending navigations. Status: ok
+[1603185498.328][INFO]: Waiting for pending navigations...
+[1603185498.353][INFO]: Done waiting for pending navigations. Status: ok
+[1603185498.353][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] RESPONSE ExecuteScript null
+[1603185498.369][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] COMMAND FindElement {
+   "using": "link text",
+   "value": "Faded Short Sleeve T-shirts"
+}
+[1603185498.369][INFO]: Waiting for pending navigations...
+[1603185498.370][INFO]: Done waiting for pending navigations. Status: ok
+[1603185498.404][INFO]: Waiting for pending navigations...
+[1603185498.405][INFO]: Done waiting for pending navigations. Status: ok
+[1603185498.405][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "efda7938-2391-4162-83f9-ea0dce79bd52"
+}
+[1603185498.410][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] COMMAND PerformActions {
+   "actions": [ {
+      "actions": [ {
+         "duration": 100,
+         "origin": {
+            "ELEMENT": "efda7938-2391-4162-83f9-ea0dce79bd52",
+            "element-6066-11e4-a52e-4f735466cecf": "efda7938-2391-4162-83f9-ea0dce79bd52"
+         },
+         "type": "pointerMove",
+         "x": 0,
+         "y": 0
+      } ],
+      "id": "default mouse",
+      "parameters": {
+         "pointerType": "mouse"
+      },
+      "type": "pointer"
+   } ]
+}
+[1603185498.410][INFO]: Waiting for pending navigations...
+[1603185498.411][INFO]: Done waiting for pending navigations. Status: ok
+[1603185498.605][INFO]: Waiting for pending navigations...
+[1603185498.609][INFO]: Done waiting for pending navigations. Status: ok
+[1603185498.609][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] RESPONSE PerformActions
+[1603185498.616][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class='quick-view'])[1]"
+}
+[1603185498.616][INFO]: Waiting for pending navigations...
+[1603185498.617][INFO]: Done waiting for pending navigations. Status: ok
+[1603185498.702][INFO]: Waiting for pending navigations...
+[1603185498.702][INFO]: Done waiting for pending navigations. Status: ok
+[1603185498.703][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] RESPONSE FindElement ERROR invalid selector: Unable to locate an element with the xpath expression //a[@class='quick-view'])[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[@class='quick-view'])[1]' is not a valid XPath expression.
+  (Session info: chrome=86.0.4240.75)
+[1603185498.854][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] COMMAND Quit {
+
+}
+[1603185499.164][INFO]: [ed059c0cb5d81d101a05d7c9c5bdd966] RESPONSE Quit

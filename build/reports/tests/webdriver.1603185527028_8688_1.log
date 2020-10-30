@@ -1,0 +1,237 @@
+[1603185528.031][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 24759
+[1603185528.032][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1603185528.923][INFO]: [b11859ea45ef995e04f8a59851a42367] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Владичег\\IdeaProjects\\AutomationpracticeCom\\build\\downloads\\1603185524638_8688_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Владичег\\IdeaProjects\\AutomationpracticeCom\\build\\downloads\\1603185524638_8688_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1603185528.929][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Владичег\\IdeaProjects\\AutomationpracticeCom\\build\\downloads\\1603185524638_8688_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1603185529.098][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1603185529.102][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\684C~1\AppData\Local\Temp\scoped_dir9344_418399014" data:,
+[1603185531.922][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603185533.931][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603185535.949][INFO]: [b11859ea45ef995e04f8a59851a42367] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.75",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\684C~1\\AppData\\Local\\Temp\\scoped_dir9344_418399014"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49740"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "b11859ea45ef995e04f8a59851a42367"
+}
+[1603185536.047][INFO]: [b11859ea45ef995e04f8a59851a42367] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1603185536.047][INFO]: Waiting for pending navigations...
+[1603185536.049][INFO]: Done waiting for pending navigations. Status: ok
+[1603185536.157][INFO]: Waiting for pending navigations...
+[1603185536.159][INFO]: Done waiting for pending navigations. Status: ok
+[1603185536.159][INFO]: [b11859ea45ef995e04f8a59851a42367] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1603185536.178][INFO]: [b11859ea45ef995e04f8a59851a42367] COMMAND Navigate {
+   "url": "http://automationpractice.com"
+}
+[1603185536.178][INFO]: Waiting for pending navigations...
+[1603185536.180][INFO]: Done waiting for pending navigations. Status: ok
+[1603185537.435][INFO]: Waiting for pending navigations...
+[1603185541.050][INFO]: Done waiting for pending navigations. Status: ok
+[1603185541.050][INFO]: [b11859ea45ef995e04f8a59851a42367] RESPONSE Navigate
+[1603185541.116][INFO]: [b11859ea45ef995e04f8a59851a42367] COMMAND FindElement {
+   "using": "link text",
+   "value": "Faded Short Sleeve T-shirts"
+}
+[1603185541.116][INFO]: Waiting for pending navigations...
+[1603185541.116][INFO]: Done waiting for pending navigations. Status: ok
+[1603185541.191][INFO]: Waiting for pending navigations...
+[1603185541.193][INFO]: Done waiting for pending navigations. Status: ok
+[1603185541.193][INFO]: [b11859ea45ef995e04f8a59851a42367] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "565b94d1-321e-4d30-a82d-a6fd2ab6766d"
+}
+[1603185541.197][INFO]: [b11859ea45ef995e04f8a59851a42367] COMMAND GetElementRect {
+   "id": "565b94d1-321e-4d30-a82d-a6fd2ab6766d"
+}
+[1603185541.197][INFO]: Waiting for pending navigations...
+[1603185541.197][INFO]: Done waiting for pending navigations. Status: ok
+[1603185541.203][INFO]: Waiting for pending navigations...
+[1603185541.203][INFO]: Done waiting for pending navigations. Status: ok
+[1603185541.204][INFO]: [b11859ea45ef995e04f8a59851a42367] RESPONSE GetElementRect {
+   "height": 23.0,
+   "width": 240.0,
+   "x": 96.5,
+   "y": 1157.0
+}
+[1603185541.209][INFO]: [b11859ea45ef995e04f8a59851a42367] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollTo(96, 1157)"
+}
+[1603185541.209][INFO]: Waiting for pending navigations...
+[1603185541.209][INFO]: Done waiting for pending navigations. Status: ok
+[1603185541.212][INFO]: Waiting for pending navigations...
+[1603185541.223][INFO]: Done waiting for pending navigations. Status: ok
+[1603185541.223][INFO]: [b11859ea45ef995e04f8a59851a42367] RESPONSE ExecuteScript null
+[1603185541.237][INFO]: [b11859ea45ef995e04f8a59851a42367] COMMAND FindElement {
+   "using": "link text",
+   "value": "Faded Short Sleeve T-shirts"
+}
+[1603185541.237][INFO]: Waiting for pending navigations...
+[1603185541.238][INFO]: Done waiting for pending navigations. Status: ok
+[1603185541.275][INFO]: Waiting for pending navigations...
+[1603185541.276][INFO]: Done waiting for pending navigations. Status: ok
+[1603185541.276][INFO]: [b11859ea45ef995e04f8a59851a42367] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "565b94d1-321e-4d30-a82d-a6fd2ab6766d"
+}
+[1603185541.281][INFO]: [b11859ea45ef995e04f8a59851a42367] COMMAND PerformActions {
+   "actions": [ {
+      "actions": [ {
+         "duration": 100,
+         "origin": {
+            "ELEMENT": "565b94d1-321e-4d30-a82d-a6fd2ab6766d",
+            "element-6066-11e4-a52e-4f735466cecf": "565b94d1-321e-4d30-a82d-a6fd2ab6766d"
+         },
+         "type": "pointerMove",
+         "x": 0,
+         "y": 0
+      } ],
+      "id": "default mouse",
+      "parameters": {
+         "pointerType": "mouse"
+      },
+      "type": "pointer"
+   } ]
+}
+[1603185541.281][INFO]: Waiting for pending navigations...
+[1603185541.281][INFO]: Done waiting for pending navigations. Status: ok
+[1603185541.415][INFO]: Waiting for pending navigations...
+[1603185541.416][INFO]: Done waiting for pending navigations. Status: ok
+[1603185541.416][INFO]: [b11859ea45ef995e04f8a59851a42367] RESPONSE PerformActions
+[1603185541.427][INFO]: [b11859ea45ef995e04f8a59851a42367] COMMAND Quit {
+
+}
+[1603185542.983][INFO]: [b11859ea45ef995e04f8a59851a42367] RESPONSE Quit

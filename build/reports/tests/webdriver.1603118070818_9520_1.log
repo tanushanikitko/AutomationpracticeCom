@@ -1,0 +1,169 @@
+[1603118071.208][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 17802
+[1603118071.209][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1603118072.055][INFO]: [e7c4f85fc34c23412671aaa1ddb66b63] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Владичег\\IdeaProjects\\AutomationpracticeCom\\build\\downloads\\1603118067009_9520_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Владичег\\IdeaProjects\\AutomationpracticeCom\\build\\downloads\\1603118067009_9520_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1603118072.172][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Владичег\\IdeaProjects\\AutomationpracticeCom\\build\\downloads\\1603118067009_9520_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1603118072.196][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1603118072.198][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\684C~1\AppData\Local\Temp\scoped_dir9236_1829948568" data:,
+[1603118087.724][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603118090.904][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603118096.784][INFO]: [e7c4f85fc34c23412671aaa1ddb66b63] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.75",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\684C~1\\AppData\\Local\\Temp\\scoped_dir9236_1829948568"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:64384"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "e7c4f85fc34c23412671aaa1ddb66b63"
+}
+[1603118097.492][INFO]: [e7c4f85fc34c23412671aaa1ddb66b63] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1603118097.597][INFO]: Waiting for pending navigations...
+[1603118097.599][INFO]: Done waiting for pending navigations. Status: ok
+[1603118097.827][INFO]: Waiting for pending navigations...
+[1603118097.850][INFO]: Done waiting for pending navigations. Status: ok
+[1603118097.850][INFO]: [e7c4f85fc34c23412671aaa1ddb66b63] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1603118097.897][INFO]: [e7c4f85fc34c23412671aaa1ddb66b63] COMMAND Navigate {
+   "url": "http://automationpractice.com"
+}
+[1603118097.897][INFO]: Waiting for pending navigations...
+[1603118097.897][INFO]: Done waiting for pending navigations. Status: ok
+[1603118099.894][INFO]: Waiting for pending navigations...
+[1603118112.029][INFO]: Done waiting for pending navigations. Status: ok
+[1603118112.029][INFO]: [e7c4f85fc34c23412671aaa1ddb66b63] RESPONSE Navigate
+[1603118112.197][INFO]: [e7c4f85fc34c23412671aaa1ddb66b63] COMMAND Quit {
+
+}
+[1603118115.673][INFO]: [e7c4f85fc34c23412671aaa1ddb66b63] RESPONSE Quit
