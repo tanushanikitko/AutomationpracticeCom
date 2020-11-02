@@ -1,11 +1,13 @@
 package tests;
 import io.qameta.allure.Description;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.CartPage;
+import utils.TestListener;
 
 import static com.codeborne.selenide.Condition.attribute;
 import static com.codeborne.selenide.Selenide.*;
-
+@Listeners(TestListener.class)
 public class CartTest extends BaseTest{
 
     public void selectProduct(String productName) {
