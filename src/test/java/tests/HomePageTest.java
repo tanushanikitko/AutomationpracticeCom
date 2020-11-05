@@ -2,7 +2,6 @@ package tests;
 import io.qameta.allure.Description;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pages.HomePage;
 import utils.TestListener;
 
     @Listeners(TestListener.class)
@@ -11,7 +10,7 @@ import utils.TestListener;
     @Test(description = "Проверить переход на страничку Women")
     @Description("Проверяем переходим ли мы на страничку Women,после нажатия кнопки")
     public void checkIfIOnWomenPage(){
-      new HomePage()
+    homePage
               .openPage()
               .clickOnWomenPage()
               .ifWomenPageOpened();
@@ -20,7 +19,7 @@ import utils.TestListener;
     @Test(description = "Проверить переход на страничку DRESSES")
     @Description("Проверяем переходим ли мы на страничку DRESSES,после нажатия кнопки")
         public void checkIfIOnDressesPage(){
-      new HomePage()
+      homePage
               .openPage()
               .clickOnDressesPage()
               .ifDressesPageOpened();
@@ -29,7 +28,7 @@ import utils.TestListener;
     @Test(description = "Проверить переход на страничку T-SHIRTS")
     @Description("Проверяем переход на страничку T-SHIRTS,после нажатия кнопки ")
         public void checkIfIOnTShirtsPageTest(){
-       new HomePage()
+       homePage
                .openPage()
                .clickOnTshirtsPage()
                .ifTshirtsPageOpened();

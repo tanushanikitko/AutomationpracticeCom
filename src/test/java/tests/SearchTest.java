@@ -2,7 +2,6 @@ package tests;
 import io.qameta.allure.Description;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pages.SearchPage;
 import utils.TestListener;
 
 
@@ -12,7 +11,7 @@ public class SearchTest extends BaseTest{
     @Test(description = "Проверить поиск товара")
     @Description("Поиск товара и проверка,что товар отобразился")
     public void searchProduct(){
-       new SearchPage()
+       searchPage
                .openPage()
                .selectProduct("Blouse")
                .isItemDisplayed();
@@ -21,7 +20,7 @@ public class SearchTest extends BaseTest{
     @Test(description = "Проверить поиск продукта из другого каталога")
     @Description("Поиск другого товара и проверка,что товар отобразился")
     public void searchProduct2(){
-      new SearchPage()
+      searchPage
               .openPage()
               .selectProduct("dresses")
               .isOtherItemDisplayed();
@@ -31,7 +30,7 @@ public class SearchTest extends BaseTest{
     @Test(description = "Проверить ввод предлагаемого товара")
     @Description("Проверить поиск предлагаемого товара при запросе")
     public void searchOfferProduct(){
-       new SearchPage()
+       searchPage
                .openPage()
                .inputNameProduct("T-SHIRTS")
                .clickOnOfferedProduct()

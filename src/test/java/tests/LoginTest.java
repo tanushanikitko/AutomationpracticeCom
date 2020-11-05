@@ -9,7 +9,7 @@ public class LoginTest extends BaseTest{
 
     @Test
     public void validLoginTest(){
-      new LoginPage()
+      loginPage
               .openPage()
               .fillInEmailAndPasswordFields(LoginPage.EMAIL,LoginPage.PASSWORD)
               .clickLogin()
@@ -18,7 +18,7 @@ public class LoginTest extends BaseTest{
 
     @Test
     public void emptyEmailTest(){
-      new LoginPage()
+     loginPage
               .openPage()
               .fillInEmailAndPasswordFields("",LoginPage.PASSWORD)
               .clickLogin()
@@ -27,7 +27,7 @@ public class LoginTest extends BaseTest{
 
     @Test
     public void emptyPasswordTest(){
-      new LoginPage()
+      loginPage
               .openPage()
               .fillInEmailAndPasswordFields(LoginPage.EMAIL,"")
               .clickLogin()
