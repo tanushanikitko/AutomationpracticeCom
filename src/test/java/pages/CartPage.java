@@ -1,10 +1,11 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
+import lombok.extern.log4j.Log4j2;
 import org.openqa.selenium.By;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
-
+@Log4j2
 public class CartPage {
     private static final String URL = "http://automationpractice.com";
     private static final By PRODUCT = By.linkText("Faded Short Sleeve T-shirts");
@@ -33,6 +34,7 @@ public class CartPage {
         actions().moveToElement(product).perform();
         $(NAME_PRODUCT).click();
         switchTo().frame(element(IFRAME));
+        log.info("Clicking on product");
         return this;
     }
 
@@ -48,13 +50,14 @@ public class CartPage {
     public CartPage chooseParameters(String quantityOfProducts, String sizeOfProducts) {
         $(QUANTITY).setValue(quantityOfProducts);
         $(SIZE).selectOption(sizeOfProducts);
-
+        log.info("Choose parameters");
         return this;
     }
 
     public CartPage addProductToCart() {
         $(ADD_TO_CART).click();
         $(PROCEED_TO_CHECKOUT).click();
+        log.info("Add product to cart");
         return this;
     }
 
@@ -70,6 +73,7 @@ public class CartPage {
 
     public CartPage ifProductRemoveFromCart() {
         $(MASSAGE).shouldHave(text("Your shopping cart is empty"));
+        log.info("Message:your shopping is empty");
         return this;
     }
 

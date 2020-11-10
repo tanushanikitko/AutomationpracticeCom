@@ -1,10 +1,11 @@
 package pages;
+import lombok.extern.log4j.Log4j2;
 import org.openqa.selenium.By;
 import static com.codeborne.selenide.CollectionCondition.exactTexts;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
-
+@Log4j2
 public class ProductsPage {
     private static final String PRODUCT = ".product_img_link";
     private static final String URL = "http://automationpractice.com";
@@ -16,11 +17,13 @@ public class ProductsPage {
 
     public ProductsPage selectProduct(String productName) {
         $$(PRODUCT).filterBy(attribute("title", productName)).first().click();
+        log.info(String.format("Select product: %s",productName));
         return this;
     }
 
     public ProductsPage openPage() {
         open(URL);
+        log.info(String.format("Opening page: %s", URL));
         return this;
 
     }

@@ -33,4 +33,12 @@ import utils.TestListener;
                .clickOnTshirtsPage()
                .ifTshirtsPageOpened();
     }
+    @Test(description = "Проверка открытия страницы контактов")
+    @Description("Проверяем возможности нажатия кнопки контактов и перехода на страницу")
+        public void hasButtonSupportService(){
+         homePage
+                 .openPage()
+                 .clickOnButtonContacts()
+                 .ifContactsPageOpened();
+    }
 }

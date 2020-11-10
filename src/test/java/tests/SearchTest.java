@@ -36,5 +36,13 @@ public class SearchTest extends BaseTest{
                .clickOnOfferedProduct()
                .ifOfferedProductDisplayed();
     }
+    @Test
+    public void inputOfNonExistentProduct(){
+      searchPage
+              .openPage()
+              .selectProduct("джинсы")
+              .ifNonExistentProductNotDisplayed();
+
+    }
 
 }
